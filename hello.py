@@ -1,1 +1,1 @@
-print("mika la star")
+print("hello world")
