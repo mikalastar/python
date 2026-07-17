@@ -4,6 +4,10 @@ import math
 n = int(input("Entrez un nombre entier positif: "))
 print(math.factorial(n))
 
+from math import sqrt
+n = int(input("Entrez un nombre entier positif: "))
+print(sqrt(n))
+
 #random
 import random
 #randrange(start, stop, step) : renvoie un nombre aléatoire compris entre start et stop (exclus) avec un pas step
