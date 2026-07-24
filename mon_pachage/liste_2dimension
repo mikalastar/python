@@ -1,0 +1,59 @@
+#les listes imbriquer c'est une liste de listes 
+
+#liste 2d les matrices
+#matrice = [
+ #   [ 1 , 2 , 3 ],
+  #  [ 4 , 5 , 6 ],
+  #  [ 7 , 8 , 9 ]
+#]
+#pour acceder a une matrice
+#print(matrice [:])# la matrice complette
+#print(matrice[1]) #la ligne 2 
+#print(matrice[0][2]) #la ligne 2 la colonne 5
+#print(matrice[-1]) #la ligne 5
+#print(matrice[1][0::1])
+#print(matrice[2][::-1])#elle inverse l'affichage de la ligne 
+#pour parcourrir une matrice
+
+#for ligne in matrice :
+#    for element in ligne :
+#        print(matrice)
+#        matrice [1][1] = 99
+#        print(matrice) 
+
+#for i in range ( len(matrice)) :
+#    for j in range (len(matrice)) :
+
+
+#matrice = []
+#for i in range ( 5 ):
+   # ligne=[  ]
+  #  for j in range ( 8 ) :
+ #       ligne.append ( i )
+ #   matrice.append(ligne)
+
+#for ligne in matrice:
+   # for element in ligne :
+        #print(element, end=" ")
+    #print( )
+#pri#nt(matrice)
+#print(matrice[0])
+#print(matrice[0][0])
+
+#pour creer une liste imbriquee
+#nomListe = [['a' ,'b' 'c'] , 'd' ,'e' , ['f', 'i' ,'j'] , 'k','l']
+L = [10 , ['math', 'chimie'], True , 'maroc', ['phython' ,['php','html','css' ,'mysql'] , 'c++']]
+print(L)
+#affichage avec seulement for 
+for ligne in L :
+    for e in L :
+        print (e)
+
+
+#affichage avec len et les index
+for i in range (len(L)):
+    for j in range(len(L[i])):
+        print(L[i][j] , end='\t')
+    print()
+
+#on peut ajouter supprimer faire les operations rechercher et duppliquer

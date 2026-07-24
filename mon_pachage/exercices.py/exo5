@@ -1,0 +1,44 @@
+
+
+#distance entre deux points 
+Xa=float(input(' Xa = '))
+Xb=float(input(' Xb = '))
+Ya=float(input(' Ya = '))
+Yb=float(input(' Yb = '))
+import math
+d=math.sqrt((Xb-Xa)**2+(Yb-Ya)**2)
+print('la distance entre les deux points a et b = ' , d)
+
+
+
+
+#echange variable
+a=int(input('entrer la valeur de a : '))
+b=int(input('entrer la valeur de b : '))
+print('avant echange')
+print( ' a = ' , a)
+print(' b = ' , b)
+def echange(a,b):
+    c=a
+    a=b
+    b=c
+    return(a,b)
+a , b = echange(a,b)
+print('apres echange')
+print( ' a = ' , a )
+print( ' b = ' , b )
+
+# convertir seconde en h m s 
+from datetime import timedelta 
+temps=int(input('entrer le temps T en secondes : '))
+#seconds dans le parametre represente que le temps qu'on saisie c'est en seconds
+t = timedelta( seconds = temps )
+print(t)
+
+t = int(input('entrer le temps T en secondes : '))
+h = t // 3600
+r = t % 3600
+m = t // 60
+s = t % 60
+
+print( t , '=' , h , 'heure' , m , 'minute' , 'et' , s , 'second')

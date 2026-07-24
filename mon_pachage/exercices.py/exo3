@@ -1,0 +1,10 @@
+#programme qui demande de saisir deux reels x et y et qui affiche la puissance x^y
+x=int(input('entrer la valeur de x : '))
+y=int(input('entrer la valeur de y : '))
+P=x**y
+print(P)
+p=pow(x , y)
+print(p)
+import math
+print('la puissance = ', math.pow(x , y) )
+

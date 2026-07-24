@@ -42,11 +42,27 @@ print(L1==L2)
 print(L1<L2)
 print(L1!=L2)
 
+#pour savoire si un element appartiens a une liste on fait 
+L=['Apple' , 'BANANE' ,'ANANASSE' , 'ORANGE']
+print('ORANGE'in L)
+print('FRAISE' in L)
+print('FRAISE' not in L)
+
+#Appartenance 
+prenoms=['ali' , 'akram' , 'alia']
+print('karim' in prenoms)
+print('alia' in prenoms)
+print('karim' not in prenoms)
+
+#longueur (len)
+print(len(prenoms)) #3
+
+
+
 # le decoupage permet d'extraire une partie d'une liste  sans utiliser une boucle
-#liste[debut:fin]
-#lettres[:5]      # du début jusqu'à l'index 4 (équivalent à lettres[0:5])
-#ettres[5:]      # de l'index 5 jusqu'à la fin
-#ettres[:]       # toute la liste (une copie complète)
-#lettres[debut:fin:pas]
-#lettre[-3:]les 3derniers elements
-#lettres[:-3] tout sauf les trois derniers 
+#liste[debut:fin:pas]
+lettres[:5]      # du début jusqu'à l'index 4 (équivalent à lettres[0:5])
+lettres[5:]      # de l'index 5 jusqu'à la fin
+lettres[:]       # toute la liste (une copie complète)
+lettres[-3:] #les 3derniers elements
+lettres[:-3] #tout sauf les trois derniers 

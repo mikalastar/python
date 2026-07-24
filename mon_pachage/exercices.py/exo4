@@ -1,0 +1,10 @@
+#demander de taper 5notes ensuite calculer et afficher leur somme et moyenne
+notes = []
+for i in range(5):
+    note=float(input(' note num '+str(i+1)+ ' =  '))
+    notes.append(note)
+s = sum(notes)
+m = s/5
+print( 'somme = ' , s )
+print( 'moyenne = ' , m )
+

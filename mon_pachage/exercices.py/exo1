@@ -1,0 +1,4 @@
+#programme qui demande l'annee de naissance d'une personne puis calcule et affiche l'age de la personne
+annee=int(input('c est quoi votre annee de naissance : '))
+age = 2026 - annee
+print('votre age est : ' , age )

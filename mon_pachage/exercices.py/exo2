@@ -1,0 +1,12 @@
+#programme qui demande de taper la largeur et longueur d'un rectangle puis il affiche le perimetre et la surface
+largeur = float(input(' la largeur du rectangle = '))
+longueur = float(input('la longueur du rectangle = ')) 
+p = ( largeur + longueur ) / 2
+print( 'le perimetre = ' , p )
+s = largeur * longueur
+print ('la surface = ' , s )
+
+# DEMANDER un rayon d'une sphère puis calculer et afficher sont volume 
+r=float(input('le rayon d une sphère = '))
+v=(4*3.14*r**3)/3
+print('le volume = ' , v )
